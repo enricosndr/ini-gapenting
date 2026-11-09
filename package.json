@@ -1,0 +1,17 @@
+{
+  "name": "wa-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp (pairing code) dengan command grup: /pay /out /add /kick /rules /pot",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "pino": "^9.5.0"
+  }
+}
